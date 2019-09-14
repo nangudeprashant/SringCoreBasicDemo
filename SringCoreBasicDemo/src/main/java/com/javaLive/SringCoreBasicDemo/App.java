@@ -14,7 +14,7 @@ public class App
 {
     public static void main( String[] args )
     {
-    	/*BeanFactory beanFactory = 
+    	/*BeanFactory beanFactory = 22 - Spring REST
                 new XmlBeanFactory( new ClassPathResource("spring-beans.xml"));
  
         GreetingMessage obj = (GreetingMessage) beanFactory.getBean("greetingMessage");
@@ -24,7 +24,7 @@ public class App
         
     	
     	ApplicationContext context = 
-    	           new ClassPathXmlApplicationContext("spring-beans.xml");
+    	           new ClassPathXmlApplicationContext("spring-config.xml");
     	          
     	          GreetingMessage obj = (GreetingMessage) context.getBean("greetingMessage");
     	          
